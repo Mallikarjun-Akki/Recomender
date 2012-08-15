@@ -1,0 +1,13 @@
+<resources>
+      <attr name="pageMargin" format="reference|dimension"/>
+      <attr name="appBackground" format="reference"/>
+      <attr name="title1" format="reference|dimension"/>
+      <attr name="labelInput" format="reference"/>
+      <attr name="inputMedium" format="reference|dimension"/>
+      <attr name="container" format="reference|dimension"/>
+      <attr name="smallText" format="reference"/>
+      <attr name="listViewTitle" format="reference|dimension"></attr>
+      <attr name="listViewRow" format="reference"/>
+      
+</resources>
+  

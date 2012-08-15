@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RecomenderActivity!</string>
+    <string name="app_name">Recomender</string>
+    <string name="form_email">E-mail</string>
+    <string name="form_password">Password</string>
+    <string name="personal_data">[USER]\n
+                    [EMAIL] </string>
+    <string name="title_list_groups">Lista de grupos</string>
+    <string name="title_list_items">Lista de opciones</string>
+    <string name="recomended_data">[ITEM]\n
+                    [DESCRIPTION]</string>
+</resources>

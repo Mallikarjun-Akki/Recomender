@@ -1,0 +1,14 @@
+<resources>
+	<style name="CustomTheme" parent="android:Theme">
+	    <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="title1">@style/activity_title</item>
+        <item name="labelInput">@style/input_label</item>
+        <item name="inputMedium">@style/input_medium</item>
+        <item name="container">@style/container</item>
+        <item name="smallText">@style/small_text</item>
+        <item name="listViewTitle">@style/list_view_title</item>
+        <item name="listViewRow">@style/listview_row</item>
+    </style>
+</resources>

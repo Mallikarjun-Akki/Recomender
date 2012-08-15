@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	
+	     
+	     <LinearLayout 
+	         android:orientation="horizontal"
+	         android:layout_height="wrap_content"
+	         android:layout_width="fill_parent"
+	         android:background="@drawable/content_top"
+	         android:paddingTop="10dp"
+	         android:paddingBottom="30dp">
+	         <ImageView 
+	             android:src="@drawable/profile_m"
+	             android:layout_height="80dp"
+	             android:layout_width="120dp"/>
+	             
+	         <TextView 
+	             android:id="@+id/personal_data"
+	             android:layout_height="wrap_content"
+	             android:layout_width="fill_parent"
+	             android:text="@string/personal_data"
+	             style="?smallText"/>
+	     
+	       </LinearLayout>
+           <TextView
+             style="?listViewTitle"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:text="@string/title_list_groups" />
+	  <LinearLayout 
+         android:orientation="vertical"
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         style="?container">
+	    
+
+	     <ListView 
+            android:id="@+id/groups_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+            
+        </ListView>
+	 </LinearLayout>  
+	    
+
+</LinearLayout>
